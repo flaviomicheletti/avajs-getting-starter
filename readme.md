@@ -2,15 +2,14 @@
 
 # AVAjs
 
-Primeiro passo com o test runner [AVAjs](https://github.com/avajs/ava).
+[AVAjs](https://github.com/avajs/ava) is a test runner for Node.js .
 
-Criei esta aplicação a partir do comando abaixo:
+Create app:
 
     npm init ava
 
-
-Para executar os testes
+Run tests:
 
     npm test
-
-
+    npm run coverage
+    npm run report
