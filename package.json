@@ -1,8 +1,11 @@
 {
-	"scripts": {
-		"test": "ava"
-	},
-	"devDependencies": {
-		"ava": "^3.9.0"
-	}
+  "scripts": {
+    "test": "ava",
+    "coverage": "nyc ava",
+    "report": "nyc report --reporter=html"
+  },
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "nyc": "^15.1.0"
+  }
 }
